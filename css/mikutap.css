@@ -4,9 +4,7 @@
 body,
 html {
     height: 100%;
-    width: 100%;
-    color: rgb(149, 67, 216);
-    background: rgb(149, 67, 216);
+    width: 100%
 }
 
 #about,
@@ -22,9 +20,9 @@ html {
 #bt_backtrack a,
 #bt_feedback a,
 #bt_start a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    border-bottom: dashed 1px rgb(255, 255, 255)
+    border-bottom: dashed 2px #fff
 }
 
 body,
@@ -32,17 +30,16 @@ html {
     position: absolute;
     overflow: hidden;
     text-align: center;
-    background: rgb(149, 67, 216);
-    color: rgb(238, 227, 76);
-    font-family: Quicksand, "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "Yu Gothic UI", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, sans-serif
+    background: rgb(160, 136, 204);
+    color: #fff;
+    font-family: Quicksand
 }
 
 #about_cover,
 #view {
     position: fixed;
     top: 0;
-    z-index: 1;
-    color: rgb(149, 67, 216);
+    z-index: 1
 }
 
 #bt_back,
@@ -145,10 +142,8 @@ html {
 
 #about {
     z-index: 1000;
-    color: rgb(149, 67, 216);
-    ;
-    background: rgb(149, 67, 216);
-    ;
+    color: #fff;
+    background: #8cc;
     max-width: 640px;
     letter-spacing: .2rem;
     line-height: 1.2;
