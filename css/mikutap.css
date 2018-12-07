@@ -20,9 +20,9 @@ html {
 #bt_backtrack a,
 #bt_feedback a,
 #bt_start a {
-    color: rgb(0, 0, 0);
+    color: #fff;
     text-decoration: none;
-    border-bottom: dashed 2px #fff
+    border-bottom: dashed 1px #fff
 }
 
 body,
@@ -30,9 +30,9 @@ html {
     position: absolute;
     overflow: hidden;
     text-align: center;
-    background: rgb(160, 136, 204);
+    background: #8cc;
     color: #fff;
-    font-family: Quicksand
+    font-family: Quicksand, "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, "Yu Gothic UI", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, sans-serif
 }
 
 #about_cover,
